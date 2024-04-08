@@ -21,6 +21,7 @@ public class TicTacToeMain {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the Board's Dimension");
+        // Minimum 3 dimension is needed
         //int dimension = scanner.nextInt();
         int dimension = 3;
         List<Player> players = new ArrayList<>();
